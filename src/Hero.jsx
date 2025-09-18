@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import gsap  from "gsap/gsap-core";
 import { ScrollTrigger } from "gsap/all";
 import { useGSAP } from "@gsap/react";
+import adeelGpt from "./assets/img/adeel-gpt.webp"
 
 
 
@@ -27,7 +28,7 @@ export default function Hero() {
     return (
       <>
         <section ref={heroSec} id="hero"  className="h-screen w-full bg-primary py-20 px-3 grid  place-content-center sticky top-0 -z-1">
-          <div className="absolute lg:w-45 w-36 lg:right-5 lg:top-65 -right-10 top-100 rotate-90 text-gray">
+          <div className="absolute lg:w-45 w-36 lg:right-5 lg:top-65 -right-10 top-90 rotate-90 text-gray">
             <h1 className="card lg:text-xl font-medium">
               Help growing brands and startups
             </h1>
@@ -41,8 +42,8 @@ export default function Hero() {
           <div className="card -mt-4 lg:-mt-13 bg-primary justify-self-center">
             <img
               className="lg:w-160 lg:h-90 w-70 h-80 object-cover opacity-90"
-              src="./src/assets/img/adeel-gpt.webp"
-              alt=""
+              src={adeelGpt}
+              alt="adeel picture"
             />
           </div>
           <div className="flex justify-between lg:px-5 -mt-8">
