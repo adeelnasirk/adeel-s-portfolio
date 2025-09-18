@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@font-face {
+    font-family: "NicoMoji";
+    src: url(./assets/font/NicoMoji-Regular.ttf);
+};
+
+
+
+@theme{
+
+    --font-nicomoji: NicoMoji, 'sans-serif' ;
+    --font-montserrat: Montserrat, 'serif';
+    --color-primary: #EAE8D8;
+    --color-secondary: #121212;
+    --color-gray: #676766
+}
+
+:root{
+    font: Montserrat, "serif";
+}
